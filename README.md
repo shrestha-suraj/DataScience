@@ -1,0 +1,4 @@
+## Maze Runner
+#### Requirements: Anaconda, Spyder (Python v 2.7)
+#### Description:
+The project was to create a neural network that could identify if a provided 5x5 matrix with 0's and 1's where 0 is a path and 1 is a block, is a maze or not. This meant that the maze should have opening at the top-left and should come out from the bottom-right. Unlike taking some sample data and training the network with long cycles, I created an algorithm that would give me all possible bits from 25 0's to 25 1's with the answer if they were maze or not. I trained my neural network using University Supercomputer as they provided me with extra computing power. It took me around 3 days to fully train my neural network using 2^25 data-sets and 1000 cycles. Eventually, when testing, the network could fully identify 97.3% of the total test case provided to it.
